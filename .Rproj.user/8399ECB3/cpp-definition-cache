@@ -1,0 +1,19 @@
+[
+    {
+        "file": "/Users/yangfeng/Library/CloudStorage/Dropbox/rpackages/RAMP/src/registerDynamicSymbol.c",
+        "file_last_write": 1579044752.0,
+        "definitions": [
+            {
+                "usr": "c:@F@R_init_RAMP",
+                "kind": 6,
+                "parent_name": "",
+                "name": "R_init_RAMP(DllInfo *)",
+                "file": "/Users/yangfeng/Library/CloudStorage/Dropbox/rpackages/RAMP/src/registerDynamicSymbol.c",
+                "line": 8,
+                "column": 6,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    }
+]
