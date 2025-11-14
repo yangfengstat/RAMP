@@ -39,6 +39,7 @@ predict.RAMP <- function(object, newdata = NULL, type = c("link", "response", "c
     mainind.list = object$mainInd.list
     interind.list = object$interInd.list
     a0.list = object$a0.list
+    family <- object$family
     k = length(mainind.list)  ###total number of models visited
     
     eta = matrix(0, n, k)
@@ -76,11 +77,26 @@ predict.RAMP <- function(object, newdata = NULL, type = c("link", "response", "c
     if (allpath == FALSE) {
         eta = eta[, object$cri.loc]
     }
-    if (match.arg(type) == "response") 
-        return(exp(eta)/(1 + exp(eta)))
-    if (match.arg(type) == "link") 
+    type <- match.arg(type)
+    if (type == "response") {
+        if (family == "gaussian") {
+            return(eta)
+        } else if (family == "binomial") {
+            return(stats::plogis(eta))
+        } else if (family == "poisson") {
+            return(exp(eta))
+        } else {
+            stop("Type 'response' is not implemented for family '", family, "'.")
+        }
+    }
+    if (type == "link") {
         return(eta)
-    if (match.arg(type) == "class") 
+    }
+    if (type == "class") {
+        if (family != "binomial") {
+            stop("Type 'class' is only defined for binomial family.")
+        }
         return(eta > 0)
+    }
     
 }

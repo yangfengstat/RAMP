@@ -1,0 +1,149 @@
+Hmm ... looks like a package
+Converting parsed Rd's to LaTeX 
+Creating pdf output from LaTeX ...
+
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-10-09>
+(./Rd2.tex
+(/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
+(/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/base/bk10.clo)) (/Library/Frameworks/R.framework/Resources/share/texmf/tex/latex/Rd.sty (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/tools/bm.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/base/alltt.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/tools/verbatim.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/base/textcomp.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty)) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty)) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/eucal.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/psnfss/times.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/inconsolata/zi4.sty `inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval.sty (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkvutils.tex (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/keyval.tex))))) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/graphics/color.sty (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty))) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty))) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 397.
+
+
+Package hyperref Warning: Option `pagebackref' has already been used,
+(hyperref)                setting the option has no effect on input line 397.
+
+) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/base/makeidx.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/base/inputenc.sty)
+Writing index file Rd2.idx
+(/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/psnfss/t1ptm.fd) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+No file Rd2.aux.
+(/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/inconsolata/t1zi4.fd) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/psnfss/t1phv.fd)
+No file Rd2.toc.
+(/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/inconsolata/ts1zi4.fd)
+Overfull \hbox (21.09914pt too wide) in paragraph at lines 59--69
+[]\T1/ptm/m/n/10 Type of pre-dic-tion re-quired. Type []\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 response\TS1/zi4/m/n/10 ' []\T1/ptm/m/n/10 gives the fit-ted val-ues for []\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 gaussian\TS1/zi4/m/n/10 '[]\T1/ptm/m/n/10 ,
+
+Overfull \hbox (4.35878pt too wide) in paragraph at lines 59--69
+\T1/ptm/m/n/10 rel-a-tive risk for []\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 cox\TS1/zi4/m/n/10 '[]\T1/ptm/m/n/10 . Type []\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 link\TS1/zi4/m/n/10 ' []\T1/ptm/m/n/10 re-turns the lin-ear pre-dic-tors for []\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 binomial\TS1/zi4/m/n/10 '[]\T1/ptm/m/n/10 ,
+
+[1{/Users/yangfeng/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/Users/yangfeng/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}{/Users/yangfeng/Library/TinyTeX/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}{/Users/yangfeng/Library/TinyTeX/texmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}]
+[2]
+[3]
+[4]
+No file Rd2.ind.
+
+[5] (/private/var/folders/6k/mkz8wbnx2gb59d41543gq83h0000gn/T/RtmpOcR39y/Rd2pdff2a2558ccd8a/Rd2.aux)
+
+Package rerunfilecheck Warning: File `Rd2.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information)</Users/yangfeng/Library/TinyTeX/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></Users/yangfeng/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/yangfeng/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></Users/yangfeng/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></Users/yangfeng/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></Users/yangfeng/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></Users/yangfeng/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Rd2.pdf (5 pages, 93357 bytes).
+Transcript written on Rd2.log.
+This is makeindex, version 2.17 [TeX Live 2023] (kpathsea + Thai support).
+Scanning input file Rd2.idx....done (8 entries accepted, 0 rejected).
+Sorting entries....done (25 comparisons).
+Generating output file Rd2.ind....done (13 lines written, 1 warning).
+Output written in Rd2.ind.
+Transcript written in Rd2.ilg.
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-10-09>
+(./Rd2.tex
+(/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
+(/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/base/bk10.clo)) (/Library/Frameworks/R.framework/Resources/share/texmf/tex/latex/Rd.sty (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/tools/bm.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/base/alltt.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/tools/verbatim.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/base/textcomp.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty)) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty)) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/eucal.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/psnfss/times.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/inconsolata/zi4.sty `inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval.sty (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkvutils.tex (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/keyval.tex))))) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/graphics/color.sty (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty))) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty))) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 397.
+
+
+Package hyperref Warning: Option `pagebackref' has already been used,
+(hyperref)                setting the option has no effect on input line 397.
+
+) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/base/makeidx.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/base/inputenc.sty)
+Writing index file Rd2.idx
+(/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/psnfss/t1ptm.fd) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def) (/private/var/folders/6k/mkz8wbnx2gb59d41543gq83h0000gn/T/RtmpOcR39y/Rd2pdff2a2558ccd8a/Rd2.aux) (/private/var/folders/6k/mkz8wbnx2gb59d41543gq83h0000gn/T/RtmpOcR39y/Rd2pdff2a2558ccd8a/Rd2.out) (/private/var/folders/6k/mkz8wbnx2gb59d41543gq83h0000gn/T/RtmpOcR39y/Rd2pdff2a2558ccd8a/Rd2.out) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/inconsolata/t1zi4.fd) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/psnfss/t1phv.fd) (/private/var/folders/6k/mkz8wbnx2gb59d41543gq83h0000gn/T/RtmpOcR39y/Rd2pdff2a2558ccd8a/Rd2.toc (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd)) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/inconsolata/ts1zi4.fd)
+[1{/Users/yangfeng/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/Users/yangfeng/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}{/Users/yangfeng/Library/TinyTeX/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}{/Users/yangfeng/Library/TinyTeX/texmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}]
+Overfull \hbox (21.09914pt too wide) in paragraph at lines 59--69
+[]\T1/ptm/m/n/10 Type of pre-dic-tion re-quired. Type []\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 response\TS1/zi4/m/n/10 ' []\T1/ptm/m/n/10 gives the fit-ted val-ues for []\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 gaussian\TS1/zi4/m/n/10 '[]\T1/ptm/m/n/10 ,
+
+Overfull \hbox (4.35878pt too wide) in paragraph at lines 59--69
+\T1/ptm/m/n/10 rel-a-tive risk for []\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 cox\TS1/zi4/m/n/10 '[]\T1/ptm/m/n/10 . Type []\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 link\TS1/zi4/m/n/10 ' []\T1/ptm/m/n/10 re-turns the lin-ear pre-dic-tors for []\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 binomial\TS1/zi4/m/n/10 '[]\T1/ptm/m/n/10 ,
+
+[2]
+[3]
+[4] (/private/var/folders/6k/mkz8wbnx2gb59d41543gq83h0000gn/T/RtmpOcR39y/Rd2pdff2a2558ccd8a/Rd2.ind
+[5]
+
+[6]) (/private/var/folders/6k/mkz8wbnx2gb59d41543gq83h0000gn/T/RtmpOcR39y/Rd2pdff2a2558ccd8a/Rd2.aux)
+
+Package rerunfilecheck Warning: File `Rd2.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information)</Users/yangfeng/Library/TinyTeX/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></Users/yangfeng/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/yangfeng/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></Users/yangfeng/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></Users/yangfeng/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></Users/yangfeng/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></Users/yangfeng/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Rd2.pdf (6 pages, 94858 bytes).
+Transcript written on Rd2.log.
+This is makeindex, version 2.17 [TeX Live 2023] (kpathsea + Thai support).
+Scanning input file Rd2.idx....done (8 entries accepted, 0 rejected).
+Sorting entries....done (25 comparisons).
+Generating output file Rd2.ind....done (13 lines written, 1 warning).
+Output written in Rd2.ind.
+Transcript written in Rd2.ilg.
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-10-09>
+(./Rd2.tex
+(/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
+(/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/base/bk10.clo)) (/Library/Frameworks/R.framework/Resources/share/texmf/tex/latex/Rd.sty (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/tools/bm.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/base/alltt.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/tools/verbatim.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/base/textcomp.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty)) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty)) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/eucal.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/psnfss/times.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/inconsolata/zi4.sty `inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval.sty (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkvutils.tex (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/keyval.tex))))) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/graphics/color.sty (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty))) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty))) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 397.
+
+
+Package hyperref Warning: Option `pagebackref' has already been used,
+(hyperref)                setting the option has no effect on input line 397.
+
+) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/base/makeidx.sty) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/base/inputenc.sty)
+Writing index file Rd2.idx
+(/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/psnfss/t1ptm.fd) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def) (/private/var/folders/6k/mkz8wbnx2gb59d41543gq83h0000gn/T/RtmpOcR39y/Rd2pdff2a2558ccd8a/Rd2.aux) (/private/var/folders/6k/mkz8wbnx2gb59d41543gq83h0000gn/T/RtmpOcR39y/Rd2pdff2a2558ccd8a/Rd2.out) (/private/var/folders/6k/mkz8wbnx2gb59d41543gq83h0000gn/T/RtmpOcR39y/Rd2pdff2a2558ccd8a/Rd2.out) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/inconsolata/t1zi4.fd) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/psnfss/t1phv.fd) (/private/var/folders/6k/mkz8wbnx2gb59d41543gq83h0000gn/T/RtmpOcR39y/Rd2pdff2a2558ccd8a/Rd2.toc (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd)) (/Users/yangfeng/Library/TinyTeX/texmf-dist/tex/latex/inconsolata/ts1zi4.fd)
+[1{/Users/yangfeng/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/Users/yangfeng/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}{/Users/yangfeng/Library/TinyTeX/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}{/Users/yangfeng/Library/TinyTeX/texmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}]
+Overfull \hbox (21.09914pt too wide) in paragraph at lines 59--69
+[]\T1/ptm/m/n/10 Type of pre-dic-tion re-quired. Type []\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 response\TS1/zi4/m/n/10 ' []\T1/ptm/m/n/10 gives the fit-ted val-ues for []\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 gaussian\TS1/zi4/m/n/10 '[]\T1/ptm/m/n/10 ,
+
+Overfull \hbox (4.35878pt too wide) in paragraph at lines 59--69
+\T1/ptm/m/n/10 rel-a-tive risk for []\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 cox\TS1/zi4/m/n/10 '[]\T1/ptm/m/n/10 . Type []\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 link\TS1/zi4/m/n/10 ' []\T1/ptm/m/n/10 re-turns the lin-ear pre-dic-tors for []\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 binomial\TS1/zi4/m/n/10 '[]\T1/ptm/m/n/10 ,
+
+[2]
+[3]
+[4] (/private/var/folders/6k/mkz8wbnx2gb59d41543gq83h0000gn/T/RtmpOcR39y/Rd2pdff2a2558ccd8a/Rd2.ind
+[5]
+
+[6]) (/private/var/folders/6k/mkz8wbnx2gb59d41543gq83h0000gn/T/RtmpOcR39y/Rd2pdff2a2558ccd8a/Rd2.aux) )
+(see the transcript file for additional information)</Users/yangfeng/Library/TinyTeX/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></Users/yangfeng/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/yangfeng/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></Users/yangfeng/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></Users/yangfeng/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></Users/yangfeng/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></Users/yangfeng/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Rd2.pdf (6 pages, 95118 bytes).
+Transcript written on Rd2.log.
+Saving output to ‘RAMP-manual.pdf’ ...
+Done
+You may want to clean up by 'rm -Rf /var/folders/6k/mkz8wbnx2gb59d41543gq83h0000gn/T//RtmpOcR39y/Rd2pdff2a2558ccd8a'

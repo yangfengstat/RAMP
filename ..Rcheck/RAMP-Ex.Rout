@@ -1,0 +1,115 @@
+
+R version 4.2.3 (2023-03-15) -- "Shortstop Beagle"
+Copyright (C) 2023 The R Foundation for Statistical Computing
+Platform: aarch64-apple-darwin20 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> pkgname <- "RAMP"
+> source(file.path(R.home("share"), "R", "examples-header.R"))
+> options(warn = 1)
+> library('RAMP')
+> 
+> base::assign(".oldSearch", base::search(), pos = 'CheckExEnv')
+> base::assign(".old_wd", base::getwd(), pos = 'CheckExEnv')
+> cleanEx()
+> nameEx("RAMP")
+> ### * RAMP
+> 
+> flush(stderr()); flush(stdout())
+> 
+> ### Name: RAMP
+> ### Title: Regularization Algorithm under Marginality Principle (RAMP) for
+> ###   high dimensional generalized quadratic regression.
+> ### Aliases: RAMP
+> 
+> ### ** Examples
+> 
+> set.seed(0)
+> n = 500
+> p = 10 #Can be changed to a much larger number say 50000
+> x = matrix(rnorm(n*p),n,p)
+> eta = 1 * x[,1] + 2 * x[,3]  + 3*x[,6]  + 4*x[,1]*x[,3] + 5*x[,1]*x[,6]
+> y =  eta + rnorm(n)
+> xtest = matrix(rnorm(n*p),n,p)
+> eta.test = 1 * xtest[,1] + 2 * xtest[,3]  + 3*xtest[,6] +
++ 4*xtest[,1]*xtest[,3] + 5*xtest[,1]*xtest[,6]
+> ytest =  eta.test + rnorm(n)
+> fit1 = RAMP(x, y)
+> fit1    ###examine the results
+Important main effects: 1 3 6 
+Coefficient estimates for main effects: 0.8904 2.047 2.922 
+Important interaction effects: X1X3 X1X6 
+Coefficient estimates for interaction effects: 3.989 4.996 
+Intercept estimate: 0.04464 
+> ypred = predict(fit1, xtest)
+> mean((ypred-ytest)^2)
+[1] 1.136251
+> 
+> #fit1.scad = RAMP(x, y, penalty = 'SCAD')
+> #fit1.scad    ###examine the results
+> 
+> #fit1.mcp = RAMP(x, y, penalty = 'MCP')
+> #fit1.mcp    ###examine the results
+> 
+> ##Now, try a binary response
+> #y = rbinom(n, 1, 1/(1+exp(-eta)))
+> #fit2 = RAMP(x, y, family='binomial')  ###for binary response
+> 
+> ## Weak heredity
+> eta = 1 * x[,1] + 3*x[,6]  + 4*x[,1]*x[,3] + 5*x[,1]*x[,6]
+> y =  eta + rnorm(n)
+> eta.test = 1 * xtest[,1] +  3*xtest[,6] + 4*xtest[,1]*xtest[,3] +
++ 5*xtest[,1]*xtest[,6]
+> ytest =  eta.test + rnorm(n)
+> 
+> fit3 = RAMP(x, y, hier = 'Strong')
+> fit3    ###examine the results
+Important main effects: 1 6 3 
+Coefficient estimates for main effects: 1.037 3.023 -0.04196 
+Important interaction effects: X1X6 X1X3 
+Coefficient estimates for interaction effects: 4.969 4.13 
+Intercept estimate: -0.04845 
+> ypred3 = predict(fit3, xtest)
+> mean((ypred3-ytest)^2)
+[1] 1.138436
+> fit4 = RAMP(x, y, hier = 'Weak')
+> fit4
+Important main effects: 1 6 
+Coefficient estimates for main effects: 1.038 3.024 
+Important interaction effects: X1X6 X1X3 
+Coefficient estimates for interaction effects: 4.971 4.126 
+Intercept estimate: -0.0466 
+> ypred4 = predict(fit4, xtest)
+> mean((ypred4-ytest)^2)
+[1] 1.137835
+> 
+> 
+> 
+> ### * <FOOTER>
+> ###
+> cleanEx()
+> options(digits = 7L)
+> base::cat("Time elapsed: ", proc.time() - base::get("ptime", pos = 'CheckExEnv'),"\n")
+Time elapsed:  1.301 0.138 1.467 0 0 
+> grDevices::dev.off()
+null device 
+          1 
+> ###
+> ### Local variables: ***
+> ### mode: outline-minor ***
+> ### outline-regexp: "\\(> \\)?### [*]+" ***
+> ### End: ***
+> quit('no')

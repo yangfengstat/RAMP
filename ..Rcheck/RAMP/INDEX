@@ -1,0 +1,5 @@
+RAMP                    Regularization Algorithm under Marginality
+                        Principle (RAMP) for high dimensional
+                        generalized quadratic regression.
+predict.RAMP            Model prediction based on a fitted RAMP object.
+print.RAMP              Result summary of a fitted RAMP object.

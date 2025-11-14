@@ -1,0 +1,17 @@
+* installing *source* package ‘RAMP’ ...
+files ‘R/intertomain.R’, ‘R/predict.RAMP.R’ have the wrong MD5 checksums
+** using staged installation
+** libs
+make: Nothing to be done for `all'.
+make: `symbols.rds' is up to date.
+installing to /Users/yangfeng/Library/CloudStorage/Dropbox/rpackages/RAMP/..Rcheck/00LOCK-RAMP/00new/RAMP/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (RAMP)
